@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0">
+    <meta name="description" content="Her kan du finde mine grafiske projekter, som jeg har udviklet i forbindelse med min uddannelse på Erhvervsakademiet Aarhus. Dette portfolio indeholder bl.a. logodesigns, webløsninger og alt den kreative proces bag.">
+   
+    <!--ICON IN BROWSER TAB-->
+    <link rel="icon" href="image/logo.png">
+
+    <!--FONT-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+    <!--TITLE I BROWSER TAB-->
+    <title>AMALIE VAMMEN - PORTFOLIO</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- BURGERMENU - med udgangspunkt i: https://codepen.io/erikterwan/pen/grOZxx -->
+    <div role='navigation' class="mobil">
+        <div id="burgermenu">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+                <a href="index.html">
+                    <li>Forside</li>
+                </a>
+                <a href="#linkkompetencer">
+                    <li>Kompetencer</li>
+                </a>
+                <a href="#linkcases">
+                    <li>Cases</li>
+                </a>
+                <a href="#linkcv">
+                    <li>CV</li>
+                </a>
+                <a href="#linkkontakt">
+                    <li>Kontakt</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+
+    <!--BURGERMENU SLUT -->
+
+
+    <!-- NYT PROJEKT LINJE -->
+    <div class="news">
+        <p>Udforsk mit nyeste projekt <a href="casethree.html">her</a></p>
+    </div>
+
+    <header>
+        <!-- LOGO ØVERST I VENSTRE HJØRNE -->
+        <img class="logo" src="image/logo.png" width="6%" alt="Logo med et A-bogstav i">
+
+        <!-- NAVIGATIONSMENU -->
+        <nav>
+            <ul>
+                <li><a class="current" href="index.html">Forside</a></li>
+                <li><a class="others" href="#linkkompetencer">Kompetencer</a></li>
+                <li><a class="others" href="#linkcases">Cases</a></li>
+                <li><a class="others" href="#linkcv">Cv</a></li>
+                <li><a class="others" href="#linkkontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="forside">
+
+        <!-- BAGGRUNDSBILLEDE -->
+        <img class="backgroundimage" src="image/background.jpg" width="100%" alt="Baggrundsbillede af to macbooks">
+        <img class="backgroundimage2" src="image/background2.jpg" width="100%" alt="Baggrundsbillede af to macbooks">
+
+        <!-- TEKST PÅ FORSIDEN -->
+        <h1 class="name">/ Amalie Vammen /</h1>
+
+        <!-- TYPEWRITE EFFEKT - med udgangspunkt i: https://css-tricks.com/snippets/css/typewriter-effect/ --> 
+        
+        <h1 class="skills">
+            <a href="" class="typewrite" data-period="1000" data-type='[ "... Grafisk design", "... Programmering", "... Brugerforståelse", "... Forretningsforståelse" ]'>
+        </a>
+        </h1>
+
+        <!-- SCROLL DOWN - med udgangspunkt i: https://codepen.io/nxworld/pen/OyRrGy -->
+        <div class="scroll">
+            <a href="#linkkompetencer"><span></span></a>
+        </div>
+    </div>
+
+    <!-- KOMPETENCER -->
+    <div class="kompetencer" id="linkkompetencer">
+
+        <h2>Kompetencer</h2>
+
+        <!-- PROGRESSBAR - med udgangspunkt i: https://codepen.io/wolfgang1983/pen/DoImd -->
+        <section>
+            <img src="image/photoshopwhite.png" width="5%" alt="En hvidt logo for Photoshop">
+            <p>Photoshop</p>
+            <div class="container">
+                <div class="progress">
+                    <div class="bar1"></div>
+                </div>
+            </div>
+
+            <img src="image/indesignwhite.png" width="5%" alt="En hvidt logo for InDesign">
+            <p>InDesign</p>
+            <div class="container">
+                <div class="progress">
+                    <div class="bar2"></div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <img src="image/illustratorwhite.png" width="5.5%" alt="En hvidt logo for Illustrator">
+            <p>Illustrator</p>
+            <div class="container">
+                <div class="progress">
+                    <div class="bar3"></div>
+                </div>
+            </div>
+            <img src="image/htmlwhite.png" width="5.5%" alt="En hvidt logo for HTML og CSS">
+            <p>HTML & CSS</p>
+            <div class="container">
+                <div class="progress">
+                    <div class="bar4"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- CASES -->
+    <div class="cases" id="linkcases">
+        <h2>Cases</h2>
+        <section>
+            <a href="caseone.html">
+                <img src="image/streetfood.jpg" width="90%" alt="Screenshot af app for Street Food">
+                <h3>Case 1</h3>
+                <p>Aarhus kulturby 2017</p>
+                <div class="button">Vis projekt</div>
+            </a>
+        </section>
+        <section>
+            <a href="casetwo.html">
+                <img src="image/magasin.jpg" width="90%" alt="Screenshot af et online magasin">
+                <h3>Case 2</h3>
+                <p>Skab et online magasin</p>
+                <div class="button">Vis projekt</div>
+            </a>
+        </section>
+        <section>
+            <a href="casethree.html">
+                <img src="image/lapyramide.jpg" width="90%" alt="Screenshot af en ny version af Restaurant La Pyramides website">
+                <h3>Case 3</h3>
+                <p>Responsive web design</p>
+                <div class="button">Vis projekt</div>
+            </a>
+        </section>
+        <section>
+            <a href="study.html">
+                <img src="image/apple.jpg" width="90%" alt="Screenshot af et æble, redigeret i Photoshop">
+                <h3>Selvstudiedag</h3>
+                <p>Photoshop effekt</p>
+                <div class="button">Vis projekt</div>
+            </a>
+        </section>
+    </div>
+
+    <!-- CV -->
+
+    <div class="cv" id="linkcv">
+        <h2>CV</h2>
+
+        <article class="first">
+            <section>
+                <!-- BILLEDE AF AMALIE VAMMEN -->
+                <img class="amaliepic" src="image/amalie.png" width="27%" alt="Selvportræt af Amalie Vammen">
+            </section>
+
+            <section>
+                <p>
+                    <!-- IKONER OG SKRIFT -->
+                    <img class="icons" src="image/pencil.png" width="7%" alt="Ikon for en blyant"> Kreative designs</p>
+                <p> <img class="icons" src="image/idea.png" width="7%" alt="Ikon for en pære"> Innovativt arbejde</p>
+                <p> <img class="icons" src="image/project.png" width="7%" alt="Ikon for et stykke papir"> Målrettet projektstyring</p>
+            </section>
+        </article>
+
+        <!-- TIDSLINJE -->
+        <article class="second">
+            <h3 class="uddannelse">Uddannelse</h3>
+            <section class="year">
+                <p>2003 - 2013</p>
+                <p>2013 - 2016</p>
+                <p>2017 -</p>
+            </section>
+            <section class="timeline">
+                <img src="image/timeline.png" height="100%" alt="Billede af en tidslinje">
+
+            </section>
+            <section class="place">
+                <p>Herning Friskole</p>
+                <p>Herning Gymnasium STX</p>
+                <p>Erhvervsakademiet Aarhus</p>
+            </section>
+
+            <h3 class="erhvervserfarring">Erhvervsserfaring</h3>
+            <section class="year">
+                <p>2016 - 2017</p>
+                <p>2016 - 2017</p>
+            </section>
+            <section class="timeline">
+                <img src="image/timeline2.png" height="53%" alt="Billede af en tidslinje">
+
+            </section>
+            <section class="place">
+                <p>Tjener, Restaurant Marco Polo</p>
+                <p>Kontor- og studiemedjælper, Lærdansk Herning</p>
+            </section>
+        </article>
+    </div>
+
+    <!-- KONTAKT -->
+    <footer>
+    <div class="kontakt" id="linkkontakt">
+        <h2>Kontakt</h2>
+        <article>
+
+            <!-- KONTAKTOPLYSNINGER -->
+            <section>
+                <h3>Kontakt mig</h3>
+                <a href="https://www.google.dk/maps/place/Aarhus/@56.1780841,10.1117634,12z/data=!3m1!4b1!4m5!3m4!1s0x464c4cb15397788b:0x8c4dd7d9912ea2af!8m2!3d56.162939!4d10.203921?hl=da">
+                    <p class="kontaktoplysninger">Aarhus, Danmark</p>
+                </a>
+                <p class="kontaktoplysninger">+45 27 25 88 88</p>
+                <p class="kontaktoplysninger email">amalie.vammen@hotmail.com</p>
+                <div class="line"></div>
+
+                <!-- SOCIAL MEDIE IKONER -->
+                <div>
+                    <a href="https://www.facebook.com/amalie.vammen"><img class="socialmedia facebook" src="image/facebook.png" width="4.5%" alt="Social medie ikon for Facebook"></a>
+                    <a href="https://www.instagram.com/amalievammen/"><img class="socialmedia" src="image/instagram.png" width="4.5%" alt="Social medie ikon for Instagram"></a>
+                    <a href="https://www.linkedin.com/in/amalievammen/"><img class="socialmedia" src="image/linkedin.png" width="4.5%" alt="Social medie ikon for Linkedin"></a>
+                </div>
+            </section>
+
+            <!-- KONTAKTFORMULAR - med udgangspunkt i: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form -->
+            <section>
+                <div class="kontaktformular">
+                    <form action="/action_page.php">
+                        <label for="fname">Navn</label>
+                        <input type="text" id="fname" name="firstname">
+                        <label for="lname">Email</label>
+                        <input type="text" id="lname" name="email">
+                        <label for="subject">Besked</label>
+                        <textarea id="subject" name="subject"></textarea>
+                        <p class="send">Send</p>
+                    </form>
+                </div>
+            </section>
+        </article>
+    </div>
+        </footer>
+
+    <!-- JAVASCRIPT FOR TYPEWRITER -->
+    <script>
+        var TxtType = function(el, toRotate, period) {
+            this.toRotate = toRotate;
+            this.el = el;
+            this.loopNum = 0;
+            this.period = parseInt(period, 10) || 1000;
+            this.txt = '';
+            this.tick();
+            this.isDeleting = false;
+        };
+
+        TxtType.prototype.tick = function() {
+            var i = this.loopNum % this.toRotate.length;
+            var fullTxt = this.toRotate[i];
+
+            if (this.isDeleting) {
+                this.txt = fullTxt.substring(0, this.txt.length - 1);
+            } else {
+                this.txt = fullTxt.substring(0, this.txt.length + 1);
+            }
+
+            this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+
+            var that = this;
+            var delta = 200 - Math.random() * 100;
+
+            if (this.isDeleting) {
+                delta /= 2;
+            }
+
+            if (!this.isDeleting && this.txt === fullTxt) {
+                delta = this.period;
+                this.isDeleting = true;
+            } else if (this.isDeleting && this.txt === '') {
+                this.isDeleting = false;
+                this.loopNum++;
+                delta = 500;
+            }
+
+            setTimeout(function() {
+                that.tick();
+            }, delta);
+        };
+
+        window.onload = function() {
+            var elements = document.getElementsByClassName('typewrite');
+            for (var i = 0; i < elements.length; i++) {
+                var toRotate = elements[i].getAttribute('data-type');
+                var period = elements[i].getAttribute('data-period');
+                if (toRotate) {
+                    new TxtType(elements[i], JSON.parse(toRotate), period);
+                }
+            }
+            // INJECT CSS
+            var css = document.createElement("style");
+            css.type = "text/css";
+            css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+            document.body.appendChild(css);
+        };
+    </script>
+    
+    <!-- JAVASCRIPT FOR TYPEWRITER SLUT -->
+
+</body>
+
+</html>
